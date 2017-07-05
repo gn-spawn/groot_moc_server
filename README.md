@@ -4,6 +4,5 @@ Trash-Panda用のモックAPIサーバー
 対応してるHTTPメソッドなどは[json-server](https://github.com/typicode/json-server)を参照
 
 ## 起動方法
-`json-server --watch db.json`
-または
-`./serve.sh`
+`json-server index.js`
+
