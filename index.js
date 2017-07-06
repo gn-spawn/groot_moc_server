@@ -1,6 +1,12 @@
 module.exports = () => {
   const data = {
-    users: []
+    users: [],
+    tags: [
+      {
+        id: 1,
+        name: "",
+      }
+    ]
   };
   // userを100個作る
   for (let i = 0; i < 100; i++) {
