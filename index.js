@@ -4,7 +4,16 @@ module.exports = () => {
     tags: [
       {
         id: 1,
-        name: "",
+        name: "ポケモン",
+      },
+
+      {
+        id: 2,
+        name: "映画"
+      },
+      {
+        id: 3,
+        name: "スポーツ"
       }
     ]
   };
@@ -14,6 +23,19 @@ module.exports = () => {
       id: `${i + 1}`,
       user_id: "8a32cbd6-" + `${i}`,
       user_name: "tehu" + `${i}`,
+      tags: [{
+          id: 1,
+          name: 'ポケモン',
+        },
+        {
+          id: 2,
+          name: '映画',
+        },
+        // {
+        //   id: 3,
+        //   name: 'スポーツ'
+        // }
+      ],
       twitter_token: "tehutehuapple_key" + `${i}`,
       twitter_token_secret: "tehutehuapple_secret" + `${i}`,
       twitter_icon_url: "https://pbs.twimg.com/media/C8Qy-EtVwAEZqq6.jpg",
